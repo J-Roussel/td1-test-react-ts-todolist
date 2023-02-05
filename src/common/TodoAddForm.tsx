@@ -24,7 +24,13 @@ const TodoAddForm = (props: TodoAddFormProps) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input data-testid={TI_INPUT_TODO_ADD} placeholder='Add task' value={todoValue} type='text' onChange={handleChange} />
+      <input
+        data-testid={TI_INPUT_TODO_ADD}
+        placeholder='Add task'
+        value={todoValue}
+        type='text'
+        onChange={handleChange}
+      />
     </form>
   );
 };

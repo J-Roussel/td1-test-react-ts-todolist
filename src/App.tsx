@@ -24,7 +24,13 @@ function App() {
   return (
     <div className='container' style={{ display: 'flex', justifyContent: 'center' }}>
       <div style={{ display: 'flex', width: '50vw', justifyContent: 'space-around' }}>
-        <TodoItemList actions={<TodoAddForm add={addTodo} />} todoStatus={TodoStatus.TODO} todos={todos} onDone={doneTodo} onRemove={removeTodo} />
+        <TodoItemList
+          actions={<TodoAddForm add={addTodo} />}
+          todoStatus={TodoStatus.TODO}
+          todos={todos}
+          onDone={doneTodo}
+          onRemove={removeTodo}
+        />
         <TodoItemList todoStatus={TodoStatus.DONE} todos={todos} onDone={doneTodo} onRemove={removeTodo} />
       </div>
     </div>

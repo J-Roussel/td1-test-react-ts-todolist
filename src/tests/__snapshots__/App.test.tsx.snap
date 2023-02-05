@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test App Architecture 1`] = `
+<div
+  className="container"
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "space-around",
+        "width": "50vw",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "padding": ".5rem",
+        }
+      }
+    >
+      <h1>
+        TODO
+      </h1>
+      <div
+        className="actions"
+      >
+        <form
+          onSubmit={[Function]}
+        >
+          <input
+            data-testid="input-todo-add-id"
+            onChange={[Function]}
+            placeholder="Add task"
+            type="text"
+            value=""
+          />
+        </form>
+      </div>
+      <div
+        className="list-container"
+      >
+        <p
+          className="message-muted"
+        >
+          No task
+        </p>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "padding": ".5rem",
+        }
+      }
+    >
+      <h1>
+        DONE
+      </h1>
+      <div
+        className="actions"
+      />
+      <div
+        className="list-container"
+      >
+        <p
+          className="message-muted"
+        >
+          No task
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

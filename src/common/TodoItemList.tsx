@@ -19,7 +19,9 @@ const TodoItemList = (props: TodoItemListProps) => {
       <div className='actions'>{todoStatus === TodoStatus.TODO && actions}</div>
       <div className='list-container'>
         {currentTodos.length > 0 ? (
-          currentTodos.map((todo, index) => <TodoItem onRemove={onRemove} key={'input' + index + todo.id} todo={todo} onDone={onDone} />)
+          currentTodos.map((todo, index) => (
+            <TodoItem onRemove={onRemove} key={'input' + index + todo.id} todo={todo} onDone={onDone} />
+          ))
         ) : (
           <p className='message-muted'>No task</p>
         )}

@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test TodoItemList Architecture 1`] = `
+<div
+  style={
+    Object {
+      "padding": ".5rem",
+    }
+  }
+>
+  <h1>
+    TODO
+  </h1>
+  <div
+    className="actions"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        data-testid="input-todo-add-id"
+        onChange={[Function]}
+        placeholder="Add task"
+        type="text"
+        value=""
+      />
+    </form>
+  </div>
+  <div
+    className="list-container"
+  >
+    <div
+      className="flex todo-item"
+    >
+      <input
+        className="pointer"
+        data-testid="input-todo-done-id-1"
+        id="1"
+        onChange={[Function]}
+        role="input-todo-done-role"
+        type="checkbox"
+      />
+      <label
+        className="ml-2"
+      >
+        Todo number 1
+      </label>
+    </div>
+    <div
+      className="flex todo-item"
+    >
+      <input
+        className="pointer"
+        data-testid="input-todo-done-id-3"
+        id="3"
+        onChange={[Function]}
+        role="input-todo-done-role"
+        type="checkbox"
+      />
+      <label
+        className="ml-2"
+      >
+        Todo number 3
+      </label>
+    </div>
+    <div
+      className="flex todo-item"
+    >
+      <input
+        className="pointer"
+        data-testid="input-todo-done-id-5"
+        id="5"
+        onChange={[Function]}
+        role="input-todo-done-role"
+        type="checkbox"
+      />
+      <label
+        className="ml-2"
+      >
+        Todo number 5
+      </label>
+    </div>
+    <div
+      className="flex todo-item"
+    >
+      <input
+        className="pointer"
+        data-testid="input-todo-done-id-7"
+        id="7"
+        onChange={[Function]}
+        role="input-todo-done-role"
+        type="checkbox"
+      />
+      <label
+        className="ml-2"
+      >
+        Todo number 7
+      </label>
+    </div>
+    <div
+      className="flex todo-item"
+    >
+      <input
+        className="pointer"
+        data-testid="input-todo-done-id-9"
+        id="9"
+        onChange={[Function]}
+        role="input-todo-done-role"
+        type="checkbox"
+      />
+      <label
+        className="ml-2"
+      >
+        Todo number 9
+      </label>
+    </div>
+  </div>
+</div>
+`;

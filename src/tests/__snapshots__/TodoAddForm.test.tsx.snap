@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test TodoAddForm Architecture 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    data-testid="input-todo-add-id"
+    onChange={[Function]}
+    placeholder="Add task"
+    type="text"
+    value=""
+  />
+</form>
+`;
