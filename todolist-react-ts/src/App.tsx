@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.css';
+import Form from './components/form/Form';
 
 function App() {
   return (
-    <div className="App">
-      Test
-    </div>
+    <React.Fragment>
+      <div className='container'>
+        <h1>ToDo List React Typescript</h1>
+        <Form />
+
+      </div>
+    </React.Fragment>
   );
 }
 
