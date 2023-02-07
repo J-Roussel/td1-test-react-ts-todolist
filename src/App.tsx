@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import TodoAddForm from './common/TodoAddForm';
-import TodoItemList from './common/TodoItemList';
+import TodoAddForm from './components/TodoAddForm';
+import TodoItemList from './components/TodoItemList';
 import Todo, { TodoStatus } from './utils/models/Todo';
 
 function App() {

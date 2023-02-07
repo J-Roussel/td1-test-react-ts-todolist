@@ -37,7 +37,6 @@ exports[`Test TodoItemList Architecture 1`] = `
         data-testid="input-todo-done-id-1"
         id="1"
         onChange={[Function]}
-        role="input-todo-done-role"
         type="checkbox"
       />
       <label
@@ -54,7 +53,6 @@ exports[`Test TodoItemList Architecture 1`] = `
         data-testid="input-todo-done-id-3"
         id="3"
         onChange={[Function]}
-        role="input-todo-done-role"
         type="checkbox"
       />
       <label
@@ -71,7 +69,6 @@ exports[`Test TodoItemList Architecture 1`] = `
         data-testid="input-todo-done-id-5"
         id="5"
         onChange={[Function]}
-        role="input-todo-done-role"
         type="checkbox"
       />
       <label
@@ -88,7 +85,6 @@ exports[`Test TodoItemList Architecture 1`] = `
         data-testid="input-todo-done-id-7"
         id="7"
         onChange={[Function]}
-        role="input-todo-done-role"
         type="checkbox"
       />
       <label
@@ -105,7 +101,6 @@ exports[`Test TodoItemList Architecture 1`] = `
         data-testid="input-todo-done-id-9"
         id="9"
         onChange={[Function]}
-        role="input-todo-done-role"
         type="checkbox"
       />
       <label

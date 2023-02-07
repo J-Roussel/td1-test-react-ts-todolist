@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { create } from 'react-test-renderer';
-import TodoAddForm from '../common/TodoAddForm';
+import TodoAddForm from '../components/TodoAddForm';
 import Todo, { TodoStatus } from '../utils/models/Todo';
 
 describe('Test TodoAddForm', () => {

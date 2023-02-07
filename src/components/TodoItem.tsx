@@ -1,9 +1,4 @@
-import {
-  TI_INPUT_TODO_DELETE,
-  TI_INPUT_TODO_DONE,
-  TR_INPUT_TODO_DELETE,
-  TR_INPUT_TODO_DONE,
-} from '../tests/utils/selectors';
+import { ID_TODO_DELETE, ID_TODO_DONE, ROLE_TODO_DELETE } from '../tests/utils/selectors';
 import Todo, { TodoStatus } from '../utils/models/Todo';
 
 type TodoItemProps = {
@@ -32,8 +27,7 @@ const TodoItem = (props: TodoItemProps) => {
           onChange={toDone}
           id={todo.id.toString()}
           // tests props
-          data-testid={`${TI_INPUT_TODO_DONE}-${todo.id}`}
-          role={TR_INPUT_TODO_DONE}
+          data-testid={`${ID_TODO_DONE}-${todo.id}`}
         />
       )}
       <label className='ml-2'>{todo.value}</label>
@@ -42,8 +36,8 @@ const TodoItem = (props: TodoItemProps) => {
           className='ml-2 pointer'
           onClick={remove}
           // tests props
-          data-testid={`${TI_INPUT_TODO_DELETE}-${todo.id}`}
-          role={TR_INPUT_TODO_DELETE}
+          data-testid={`${ID_TODO_DELETE}-${todo.id}`}
+          role={ROLE_TODO_DELETE}
         >
           x
         </p>

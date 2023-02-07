@@ -9,7 +9,6 @@ exports[`Test TodoItem Architecture 1`] = `
     data-testid="input-todo-done-id-1"
     id="1"
     onChange={[Function]}
-    role="input-todo-done-role"
     type="checkbox"
   />
   <label
