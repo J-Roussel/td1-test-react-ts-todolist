@@ -11,4 +11,59 @@
     margin-bottom: 10px;
     color: #F2BE22;
   }
-  
+
+
+.card {
+  width: 100%;
+  min-height: 550px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#left-card-title, #left-task{
+    background-color: #F2BE22;
+}
+
+#right-card-title, #right-task{  
+    background-color: #267365;
+}
+
+.task {
+  width: 98%;
+  margin: auto;
+  margin-top: 2%;
+  min-height: 90px;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+.action-btn{
+  margin-top: 4%;
+  margin-left: 55%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+.completed-btn {
+  width: 45%;
+  background-color: #185359;
+  color: #F2BE22;
+  border: 1px solid #F2BE22;
+}
+
+.completed-btn:hover {
+  background-color: #267365;
+}
+
+.remove-btn {
+  width: 45%;
+  background-color: #8C1F28;
+  color: white;
+  border: 1px solid white;
+}
+
+.remove-btn:hover {
+  background-color: #D92525;
+}
