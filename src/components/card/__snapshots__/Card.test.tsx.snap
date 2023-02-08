@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Card componenet renders the Card component 1`] = `
+<div
+  className="card-container"
+>
+  <h3
+    className="title"
+    id="test"
+  >
+    test
+  </h3>
+  <div>
+    test
+  </div>
+  <p
+    className="add-description"
+  >
+    Add 
+    <span>
+      +
+    </span>
+  </p>
+</div>
+`;

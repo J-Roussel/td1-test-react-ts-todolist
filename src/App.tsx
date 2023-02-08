@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './App.css';
 import Form from './components/form/Form';
-import Card from './components/card/card';
+import Card from './components/card/Card';
 import { ITask } from "./utils/interfaces";
 
 

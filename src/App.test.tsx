@@ -1,7 +1,7 @@
 import renderer from "react-test-renderer";
 import App from './App';
 import Form from './components/form/Form';
-import Card  from './components/card/card';
+import Card  from './components/card/Card';
 
 
 describe('Unit test for App component', () => {
@@ -14,6 +14,7 @@ describe('Unit test for App component', () => {
   test('render the correct title and subtitle', ()=>{
     const APPCOMPONENT = renderer.create(<App/>);
     const TEXTELEMENT = APPCOMPONENT.root.findByType("h1").children;
+    
     console.log(TEXTELEMENT.toString());
     
     expect(TEXTELEMENT.toString()).toMatch(/ToDo List React Typescript/i);
