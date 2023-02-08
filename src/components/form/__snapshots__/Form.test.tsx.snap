@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unit test for Form component render form component correctly 1`] = `
+<div
+  className="form-container"
+>
+  <div
+    className="form"
+  >
+    <div
+      className="info"
+    >
+      <div
+        className="name"
+      >
+        <label
+          className="label-name"
+          htmlFor="name"
+        >
+               Name
+        </label>
+        <input
+          className="input-name"
+          name="inputName"
+          onChange={[MockFunction]}
+          placeholder="test1"
+          type="text"
+          value="test"
+        />
+      </div>
+      <div
+        className="description"
+      >
+        <label
+          className="label-description"
+          htmlFor="description"
+        >
+               Description
+        </label>
+        <input
+          className="input-description"
+          name="inputDescri"
+          onChange={[MockFunction]}
+          placeholder="test2"
+          type="textarea"
+          value="teste"
+        />
+      </div>
+    </div>
+    <input
+      className="valider"
+      onClick={[MockFunction]}
+      type="button"
+      value="ADD ToDo"
+    />
+  </div>
+</div>
+`;
+
+exports[`Unit test for Form component renders form component correctly 1`] = `null`;

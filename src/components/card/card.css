@@ -1,0 +1,33 @@
+.card-container {
+    background-color: white;
+    width: 500px;
+    min-height: 220px;
+    border-radius: 10px;
+}
+
+.title {
+    color: #0B2B40;
+    letter-spacing: 2px;
+    padding: 5px 50px 5px 50px;
+    text-align: center;
+}
+
+.add-description {
+    width: 92%; 
+    background-color: transparent;
+    color: #0B2B40;
+    border-top: 1px solid #0B2B40;
+    margin-top: 50px;
+    margin-left: 4%;
+    margin-right: auto;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    font-size: 10pt;
+    font-weight: 1000;
+    background-color: transparent;
+}
